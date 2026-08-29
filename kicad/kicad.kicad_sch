@@ -904,6 +904,414 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 175.26 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77620668-dee7-468f-b4f4-4f50191271f3")
+	)
+	(junction
+		(at 153.67 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a187c5-d5bd-4ab6-a4b7-80dbf14727ec")
+	)
+	(junction
+		(at 171.45 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8317d06c-4ebf-4612-88b8-2500f0a7ebc5")
+	)
+	(junction
+		(at 149.86 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8681003a-c2c8-4377-a921-e5a3ae228120")
+	)
+	(junction
+		(at 151.13 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad8fdde9-aa1c-441a-a116-19abb93cdb7c")
+	)
+	(junction
+		(at 153.67 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d4abeea2-11d0-4e2e-8cd6-0ed5c8459866")
+	)
+	(wire
+		(pts
+			(xy 175.26 102.87) (xy 196.85 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "283f83ae-694c-493e-988a-49b47bb52d00")
+	)
+	(wire
+		(pts
+			(xy 135.89 66.04) (xy 149.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c1ddcf-f01c-47ff-b01e-74e2b91ac915")
+	)
+	(wire
+		(pts
+			(xy 153.67 124.46) (xy 179.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d5aa99-71da-4e17-af03-1d0526919ba0")
+	)
+	(wire
+		(pts
+			(xy 135.89 102.87) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cec18ef-cddf-48d8-9a0c-78b3e4fcfe69")
+	)
+	(wire
+		(pts
+			(xy 149.86 66.04) (xy 167.64 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5174ec5-94f8-4d7a-bdfe-2fe570d09cad")
+	)
+	(wire
+		(pts
+			(xy 135.89 83.82) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c967883c-147d-4705-807d-c9bf1e16c7ff")
+	)
+	(wire
+		(pts
+			(xy 151.13 83.82) (xy 171.45 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d660c6b3-21b2-4b6a-9298-9aa8f57ec0d6")
+	)
+	(wire
+		(pts
+			(xy 171.45 83.82) (xy 191.77 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0558274-050e-4795-9eb7-95ca131626a1")
+	)
+	(wire
+		(pts
+			(xy 135.89 124.46) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea51efb4-6ff3-485c-b771-7d4e127be275")
+	)
+	(wire
+		(pts
+			(xy 153.67 102.87) (xy 175.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fba4952e-870c-4f59-b17a-48efd8b16712")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 63.5 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "065b3b0c-45eb-4752-8c1f-d749a3791d4e")
+		(property "Reference" "#PWR05"
+			(at 104.14 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 101.6 63.4999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ad603eb-daf5-42f9-a5b9-dab635c32142")
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09465125-09e5-41e5-aeaf-34ac41c66f9a")
+		(property "Reference" "#PWR01"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c2d4ab5-b97c-4154-afc9-755b59812509")
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "keebio:ProMicro")
@@ -1052,8 +1460,8 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_stab")
-		(at 194.31 119.38 0)
+		(lib_id "power:GND")
+		(at 135.89 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1062,31 +1470,30 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5167ebc3-12a1-4d2f-b344-7c8efab9837c")
-		(property "Reference" "S1"
-			(at 200.66 117.9829 0)
+		(uuid "3a2178b1-1ed8-4829-9acb-979988f722a9")
+		(property "Reference" "#PWR02"
+			(at 135.89 90.17 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "MX_stab"
-			(at 200.66 120.5229 0)
+		(property "Value" "GND"
+			(at 135.89 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-mx:STAB_MX_P_6.25u"
-			(at 194.31 119.38 0)
+		(property "Footprint" ""
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1097,7 +1504,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 119.38 0)
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1107,8 +1514,8 @@
 				)
 			)
 		)
-		(property "Description" "Cherry MX-style stabilizer"
-			(at 194.31 119.38 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1117,11 +1524,14 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "1"
+			(uuid "1c0c3923-b571-477f-b30e-1bf158692cf7")
 		)
 		(instances
 			(project "kicad"
 				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
-					(reference "S1")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1129,7 +1539,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
-		(at 147.32 62.23 0)
+		(at 147.32 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1140,7 +1550,7 @@
 		(fields_autoplaced yes)
 		(uuid "53b4de6b-760d-4f34-b490-71fc80792d4a")
 		(property "Reference" "MX1"
-			(at 147.32 54.61 0)
+			(at 147.32 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1150,7 +1560,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 147.32 57.15 0)
+			(at 147.32 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1160,7 +1570,7 @@
 			)
 		)
 		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
-			(at 147.32 62.23 0)
+			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1171,7 +1581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 62.23 0)
+			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1182,7 +1592,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
-			(at 147.32 62.23 0)
+			(at 147.32 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1209,7 +1619,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
-		(at 189.7592 80.8897 0)
+		(at 189.23 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1220,7 +1630,7 @@
 		(fields_autoplaced yes)
 		(uuid "53ef7f6e-b4d6-49c5-a99e-55d475558ca6")
 		(property "Reference" "MX5"
-			(at 189.7592 73.2697 0)
+			(at 189.23 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1230,7 +1640,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 189.7592 75.8097 0)
+			(at 189.23 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1240,7 +1650,7 @@
 			)
 		)
 		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
-			(at 189.7592 80.8897 0)
+			(at 189.23 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1251,7 +1661,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.7592 80.8897 0)
+			(at 189.23 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1262,7 +1672,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
-			(at 189.7592 80.8897 0)
+			(at 189.23 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1282,6 +1692,85 @@
 			(project "kicad"
 				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
 					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72b3f1a0-8f99-4bd1-b4fc-2eb17568db0e")
+		(property "Reference" "#PWR07"
+			(at 55.88 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e34ba4e1-cd14-454a-96aa-3eb3b6db7b2b")
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -1449,7 +1938,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
-		(at 176.53 123.19 0)
+		(at 176.53 121.92 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1460,7 +1949,7 @@
 		(fields_autoplaced yes)
 		(uuid "7684096b-d4a8-419c-8442-b002254bedf2")
 		(property "Reference" "MX10"
-			(at 176.53 115.57 0)
+			(at 176.53 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1470,7 +1959,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 176.53 118.11 0)
+			(at 176.53 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1480,7 +1969,7 @@
 			)
 		)
 		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
-			(at 176.53 123.19 0)
+			(at 176.53 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1491,7 +1980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 123.19 0)
+			(at 176.53 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1502,7 +1991,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
-			(at 176.53 123.19 0)
+			(at 176.53 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1608,8 +2097,8 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
-		(at 168.0596 80.5797 0)
+		(lib_id "power:GND")
+		(at 135.89 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1618,9 +2107,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aed789ab-a5f5-4402-ac34-eef78e8c03ae")
-		(property "Reference" "MX4"
-			(at 168.0596 72.9597 0)
+		(uuid "907d748e-b6a6-47e8-be67-a5d870dcbd1a")
+		(property "Reference" "#PWR03"
+			(at 135.89 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1629,8 +2119,8 @@
 				)
 			)
 		)
-		(property "Value" "MX_SW_HS"
-			(at 168.0596 75.4997 0)
+		(property "Value" "GND"
+			(at 135.89 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1639,8 +2129,8 @@
 				)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
-			(at 168.0596 80.5797 0)
+		(property "Footprint" ""
+			(at 135.89 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1651,7 +2141,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.0596 80.5797 0)
+			(at 135.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82f43af0-b86d-4d3f-855d-6a5d586de1ad")
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 168.91 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aed789ab-a5f5-4402-ac34-eef78e8c03ae")
+		(property "Reference" "MX4"
+			(at 168.91 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 168.91 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
+			(at 168.91 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1662,7 +2229,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
-			(at 168.0596 80.5797 0)
+			(at 168.91 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1688,8 +2255,8 @@
 		)
 	)
 	(symbol
-		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
-		(at 148.8399 80.5797 0)
+		(lib_id "marbastlib-mx:MX_stab")
+		(at 194.31 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1698,29 +2265,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b6afbedb-643d-4b07-8924-63de014f1ef4")
-		(property "Reference" "MX3"
-			(at 148.8399 72.9597 0)
+		(uuid "b2045fc3-4136-4c9c-83e0-f402f1c8fb46")
+		(property "Reference" "S1"
+			(at 200.66 119.2529 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "MX_SW_HS"
-			(at 148.8399 75.4997 0)
+		(property "Value" "MX_stab"
+			(at 200.66 121.7929 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
-			(at 148.8399 80.5797 0)
+		(property "Footprint" "marbastlib-mx:STAB_MX_2.25u"
+			(at 194.31 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,7 +2300,159 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.8399 80.5797 0)
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cherry MX-style stabilizer"
+			(at 194.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2c5a2b5-17bd-4e36-8c77-d75f61a21773")
+		(property "Reference" "#PWR04"
+			(at 135.89 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 129.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65d2097d-9d48-4acc-99f9-01a55f0bbeb9")
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
+		(at 148.59 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6afbedb-643d-4b07-8924-63de014f1ef4")
+		(property "Reference" "MX3"
+			(at 148.59 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 148.59 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
+			(at 148.59 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +2463,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
-			(at 148.8399 80.5797 0)
+			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +2490,7 @@
 	)
 	(symbol
 		(lib_id "marbastlib-mx:MX_SW_HS_KS-2P02B01-01")
-		(at 172.72 101.6 0)
+		(at 172.72 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1780,7 +2501,7 @@
 		(fields_autoplaced yes)
 		(uuid "bce39fe1-2f86-4e3e-b176-7a6e6e67ff29")
 		(property "Reference" "MX7"
-			(at 172.72 93.98 0)
+			(at 172.72 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1790,7 +2511,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 172.72 96.52 0)
+			(at 172.72 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1800,7 +2521,7 @@
 			)
 		)
 		(property "Footprint" "MX_Only:MXOnly-1.25U-Hotswap-LED"
-			(at 172.72 101.6 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1811,7 +2532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 101.6 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1822,7 +2543,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Gateron KS-2P02B01-01 for Cherry MX style switches"
-			(at 172.72 101.6 0)
+			(at 172.72 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1922,6 +2643,85 @@
 			(project "kicad"
 				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
 					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 62.23 66.04 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7331e4e-a2b2-4a77-a3e1-b1a82e2502d1")
+		(property "Reference" "#PWR06"
+			(at 55.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 62.23 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfc4376b-650e-435f-820a-85e20a015874")
+		)
+		(instances
+			(project "kicad"
+				(path "/0fe54020-6716-4539-a4cc-01214d1c82da"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
